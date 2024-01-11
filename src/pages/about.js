@@ -1,5 +1,6 @@
 // Step 1: Import React
 import * as React from 'react'
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -12,4 +13,8 @@ const AboutPage = () => {
 }
 
 // Step 3: Export your component
+// Rest of the component...
+
+export const Head = () => <Seo title="About Me" />
+
 export default AboutPage
